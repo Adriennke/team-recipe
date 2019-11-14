@@ -1,0 +1,104 @@
+html {
+    font-size: 1rem;
+    background: #FFAFBD;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+main {
+    display: block;
+    padding: 2em;
+}
+
+/* typography */
+h1 {
+    font-family: 'Cairo', Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    opacity: 0.8;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2em;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.subheadline {
+    font-family: 'Satisfy', cursive;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: -5rem;
+}
+
+#nav-ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav-li {
+    display: inline;
+    padding: 2rem 2rem 2rem 2rem;
+    font-size: 1.7rem;
+}
+
+a {
+    color: rgb(158, 76, 0);
+    text-decoration: none;
+    border: rgb(158, 76, 0);
+    border-width: 2.5px;
+    border-style: solid;
+    padding: 0.5em;
+}
+
+#main-img {
+    width: 80%;
+    height: auto;
+    margin: 2.5em auto;
+    display: block;
+
+}
+
+#desert-img {
+    width: 25%;
+    height: auto;
+    margin: 2.5em auto;
+    display: block;
+}
+
+ul>li,
+ol>li {
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.center-text {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+}
+
+p {
+    font-size: 1.5rem;
+    padding-left: 1em;
+    display: inline;
+    font-family: 'Cairo', Arial, Helvetica, sans-serif;
+}
